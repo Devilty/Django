@@ -129,7 +129,7 @@ STATIC_PATH = os.path.join(os.path.dirname(__file__), 'static')
 
 # 生产环境静态资源目录，执行 manage.py collectstatic 后静态文件存放的路径
 STATIC_ROOT = '/var/www/devil/static/'
-#STATIC_ROOT = os.path.join(BASE_DIR, "static/")
+# STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 # 生产环境 执行 manage.py collectstatic 后搜索配置的文件列表，存储至STATIC_ROOT目录下
 # 可以用来存储公用资源，如: JQuery, bootstrap等
 STATICFILES_DIRS = (
